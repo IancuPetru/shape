@@ -4,7 +4,7 @@ import base.ShapeBase;
 
 public class Triangle  extends ShapeBase{
 
-	public Triangle(String name,String formula) {
-		super(name="triangle",formula="width*height/2");
+	public Triangle() {
+		super("triangle","width*height/2");
 		}
 }
