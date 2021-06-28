@@ -5,6 +5,8 @@ import base.ShapeBase;
 public class Triangle  extends ShapeBase{
 
 	public Triangle() {
-		super("triangle","width*height/2");
+		super();
+		this.name="triangle";
+		this.formula="width*height/2";
 		}
 }
